@@ -1,17 +1,17 @@
-export default function handler(req, res) {
-  // Adiciona CORS
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
-
+function ApiMusicInfo(req, res) {
+    const dataDinamica = new Date();
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   if (req.method === "OPTIONS") {
-    res.status(200).end(); // pré-verificação
-    return;
+    res.status(200).end(); 
   }
-
-  const dataDinamica = new Date();
-
-  res.status(200).json({
+    res.json({
+        date: dataDinamica.toGMTString()
+    })
+ res.status(200).json({
     date: dataDinamica.toGMTString(),
   });
 }
+
+export default ApiMusicInfo;
