@@ -7,11 +7,14 @@ function ApiMusicInfo(req, res) {
     res.status(200).end(); 
   }
     res.json({
-        date: dataDinamica.toGMTString()
+        date: dataDinamica.toGMTString(),
+        name:"ola"
     })
  res.status(200).json({
     date: dataDinamica.toGMTString(),
   });
+
+  
 }
 
 export default ApiMusicInfo;
