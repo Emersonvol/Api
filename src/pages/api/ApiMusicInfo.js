@@ -1,12 +1,13 @@
-function ApiMusicInfo(req, res) {
+async function ApiMusicInfo(req, res) {
   const dataDinamica = new Date();
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-  res.setHeader("https://accounts.spotify.com/api/token")
-  res.setHeader("Content-Type: application/x-www-form-urlencoded")
-  res.setHeader("grant_type=client_credentials&client_id=your-client-id&client_secret=your-client-secret")
+  const apiDoSpotify = await fetch("https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy") 
+  const Dados = await apiDoSpotify.json()
+  console.log(dados)
+
 
   if (req.method === "OPTIONS") {
     res.status(200).end();
