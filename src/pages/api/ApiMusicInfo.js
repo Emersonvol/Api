@@ -5,9 +5,9 @@ async function ApiMusicInfo(req, res) {
  
   const musicas = fetch('/music/musicas.json')
   const dados = await musicas.json()
-  
+  console.log(dados)
   res.json({
-    name: dodos
+    
 
   })
 
