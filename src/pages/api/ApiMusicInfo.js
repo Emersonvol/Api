@@ -7,7 +7,7 @@ async function ApiMusicInfo(req, res) {
   const dados = await musicas.json()
   console.log(dados)
   res.json({
-    
+      nome:"oola"
 
   })
 
