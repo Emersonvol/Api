@@ -1,0 +1,44 @@
+[
+    {
+        "name_music": "Three Nil",
+        "name_band": "Slipknot",
+        "name_album": "Vol. 3: (The Subliminal Verses)",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "The Nameless",
+        "name_band": "Slipknot",
+        "name_album": "Vol. 3: (The Subliminal Verses)",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "Skin Ticket",
+        "name_band": "Slipknot",
+        "name_album": "Iowa",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "Sulfur",
+        "name_band": "Slipknot",
+        "name_album": "All Hope Is Gone",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "Everything Ends",
+        "name_band": "Slipknot",
+        "name_album": "Iowa",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "The Heretic Anthem",
+        "name_band": "Slipknot",
+        "name_album": "Iowa",
+        "music": "/api/music/01 - Three Nil.mp3"
+    },
+    {
+        "name_music": "Iowa",
+        "name_band": "Slipknot",
+        "name_album": "Iowa",
+        "music": "/api/music/01 - Three Nil.mp3"
+    }
+]
