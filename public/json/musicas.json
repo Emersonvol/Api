@@ -3,36 +3,50 @@
     "name_music": "Three Nil",
     "name_band": "Slipknot",
     "name_album": "Vol. 3: (The Subliminal Verses)",
+    "imagem_album": "/musicas/sub_verses.webp",
     "music": "/musicas/01 - Three Nil.mp3"
   },
   {
     "name_music": "The Nameless",
     "name_band": "Slipknot",
     "name_album": "Vol. 3: (The Subliminal Verses)",
+    "imagem_album": "/musicas/sub_verses.webp",
     "music": "/musicas/02 - The Nameless.mp3"
   },
   {
     "name_music": "Skin Ticket",
     "name_band": "Slipknot",
     "name_album": "Iowa",
+    "imagem_album": "/musicas/iowa.jpeg",
     "music": "/musicas/03 - Skin Ticket.mp3"
   },
   {
     "name_music": "Sulfur",
     "name_band": "Slipknot",
     "name_album": "All Hope Is Gone",
-    "music": "/musicas/04 - Sulfur.mp3"
+    "imagem_album": "/musicas/all_hope_is_gone.jpeg",
+    "music": "/musicas/03. Slipknot - Sulfur.Mp3"
   },
   {
     "name_music": "Everything Ends",
     "name_band": "Slipknot",
     "name_album": "Iowa",
-    "music": "/musicas/05 - Everything Ends.mp3"
+    "imagem_album": "/musicas/iowa.jpeg",
+    "music": "/musicas/04 - Everything Ends.mp3"
   },
   {
     "name_music": "The Heretic Anthem",
     "name_band": "Slipknot",
     "name_album": "Iowa",
+    "imagem_album": "/musicas/iowa.jpeg",
     "music": "/musicas/06 - Iowa.mp3"
+  },
+  {
+    "name_music": " Dona Do Meu Pensamento",
+    "name_band": "Charlie Brown jr",
+    "name_album": "Camisa 10 joga bola ate na chuva",
+    "imagem_album": "/musicas/camisa 10.jpeg",
+    "music": "/musicas/01 Dona Do Meu Pensamento.mp3"
   }
+
 ]
